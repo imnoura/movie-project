@@ -115,7 +115,7 @@
 .left-menu-icon:hover {
   transform: scale(0.8);
 }
-.container {
+.wrapper {
   background-color: #151515;
   min-height: calc(100vh - 50px);
   color: #fff;
