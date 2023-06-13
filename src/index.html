@@ -17,13 +17,13 @@
     ></script>
   </head>
   <body>
-    <div class="navbar">
-      <div class="navbar-container">
-        <div class="logo-container">
-          <img src="../src/assets/images/logo.png" class="logo" />
+    <div class="h-[50px] bg-black">
+      <div class="flex items-center py-0 px-[50px] h-full text-white gap-4">
+        <div class="flex-1 grid items-center">
+          <img src="../src/assets/images/logo.png" class="w-[100px] h-[30px] cursor-pointer" />
         </div>
-        <div class="menu-container">
-          <ul class="menu-list">
+        <div class="flex flex-row items-center ">
+          <ul class="flex list-none cursor-pointer">
             <li class="menu-list-item active">Home</li>
             <li class="menu-list-item">Movies</li>
             <li class="menu-list-item">Series</li>
@@ -31,22 +31,24 @@
             <li class="menu-list-item">Trends</li>
           </ul>
         </div>
-        <div class="profile-container">
-          <img src="../src/assets/images/profile.png" class="profile-picture" />
-          <div class="profile-text-container">
-            <span class="profile-text">Profile</span>
+        <div class="flex justify-center items-center gap-4">
+          <div>
+            <img src="../src/assets/images/profile.png" class="w-[35px] h-[35px] rounded-full cursor-pointer" />
+          </div>
+          <div class="profile__user">
+            <span class="my-0 mx-[15px]">Profile</span>
             <i class="fa-solid fa-caret-down"></i>
           </div>
-          <div class="toggle">
-            <i class="fa-solid fa-moon toggle-icon"></i>
-            <i class="fa-solid fa-lightbulb toggle-icon"></i>
-            <div class="toggle-ball"></div>
-          </div>
+        </div>
+        <div class="w-[40px] h-[20px] bg-white rounded-[30px] flex items-center justify-around relative">
+          <i class="fa-solid fa-moon toggle-icon"></i>
+          <i class="fa-solid fa-lightbulb toggle-icon"></i>
+          <div class="toggle-ball"></div>
         </div>
       </div>
     </div>
 
-    <div class="sidebar">
+    <div class="w-[50px] h-full bg-black fixed top-0 items-center flex-col pt-[60px] flex">
       <i class="left-menu-icon fas fa-search"></i>
       <i class="left-menu-icon fas fa-home"></i>
       <i class="left-menu-icon fas fa-users"></i>

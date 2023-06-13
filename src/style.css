@@ -10,7 +10,7 @@
   font-family: "Roboto", sans-serif;
 }
 .navbar {
-  width: 100;
+  width: 100%;
   height: 50px;
  background-color: black;
 }
@@ -32,7 +32,6 @@
   cursor: pointer;
 }
 .menu-container {
-  flex: 6;
   display: grid;
   align-items: center;
 }
@@ -86,13 +85,14 @@
   font-size: 13px;
 }
 .toggle-ball {
-  width: 18px;
+  @apply w-[18px] h-[18px] bg-black absolute right-[1px] rounded-[50%] cursor-pointer;
+  /* width: 18px;
   height: 18px;
   background-color: black;
   position: absolute;
   right: 1px;
   border-radius: 50%;
-  cursor: pointer;
+  cursor: pointer; */
 }
 .sidebar {
   width: 50px;
