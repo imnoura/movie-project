@@ -40,7 +40,7 @@
   list-style: none;
   cursor: pointer;
 }
-.menu-list-item {
+li {
   margin: 30px;
   transition: all 0.3s ease-in-out;
 }
