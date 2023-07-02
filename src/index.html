@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Netflix Clone</title>
     <link href="../src/assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../dist/output.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
@@ -48,7 +47,7 @@
       </div>
     </div>
 
-    <div class="w-[50px] h-full bg-black fixed top-0 items-center flex-col pt-[60px] flex">
+    <div class="w-[50px] h-full bg-black fixed top-0 items-center flex-col pt-[60px] flex z-10">
       <i class="left-menu-icon fas fa-search"></i>
       <i class="left-menu-icon fas fa-home"></i>
       <i class="left-menu-icon fas fa-users"></i>
@@ -58,8 +57,8 @@
       <i class="left-menu-icon fas fa-shopping-cart"></i>
     </div>
 
-    <div class="wrapper">
-      <div class="content-container">
+    <div class="bg-[#151515] min-h-[calc(100% + 50px)]">
+      <div class="ml-50px">
         <div
           class="featured-content"
           style="
@@ -68,20 +67,21 @@
             background-size: cover;
           "
         >
-          <h1 class="featured-title">Unlimited movies, TV shows and more.</h1>
-          <p class="featured-desc">Watch anywhere. Cancel anytime.</p>
-          <button class="featured-button">
+          <h1 class="w-[500px] text-center text-white text-5xl font-serif">Unlimited movies, TV shows and more.</h1>
+          <p class="text-center text-white text-2xl font-serif mt-[25px]">Watch anywhere. Cancel anytime.</p>
+          <button class=" bg-[#f40612] text-white text-xl rounded-xl px-[30px] py-[15px] border-none outline-none mt-[25px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-700">
             GET STARTED <i class="fa-solid fa-angle-right btn-icon"></i>
           </button>
         </div>
 
-        <div class="movie-list-container">
-          <h1 class="movie-list-title">NEW RELEASES</h1>
-          <div class="movie-list-wrapper">
-            <div class="movie-list">
-              <div class="movie-list-item">
-                <img src="../src/assets/images/01.jpg" class="movie-list-item-img" />
-                <span class="movie-list-item-title">Netflix Original</span>
+        <div class="px-2 py-0">
+          <h1 class="movie-list-title mt-[40px] text-2xl font-serif">NEW RELEASES</h1>
+          <div class="relative overflow-hidden mb-[20px]">
+            <div class="flex items-center h-[250px]">
+              <div class="mr-[20px] relative">
+                <img src="../src/assets/images/01.jpg" class="w-[300px] h-[200px] object-cover rounded-2xl cursor-pointer transition-all duration-300 ease-in-out hover:scale-75
+                " />
+                <span class="bg-[#151515]">Netflix Original</span>
                 <p class="movie-list-item-desc">
                   Ready to watch? Enter your email to create or restart your
                   membership.
