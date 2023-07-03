@@ -144,10 +144,6 @@ li {
 .movie-list-wrapper {
   @apply relative overflow-hidden -mb-5;
 }
-.movie-list-title {
-  margin-top: 40px;
-  font-size: 25px;
-  font-family: "Poppins", sans-serif;
 }
 .movie-list {
   display: flex;
