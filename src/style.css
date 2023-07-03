@@ -171,10 +171,10 @@ li {
   opacity: 1;
 }
 .movie-list-item-title { 
-  @apply bg-[#151515] px-3 py-0 text-xl font-bold top-[15%] left-6 rounded-md cursor-pointer opacity-0 transition-all duration-500 ease-in-out hover:scale-75;
+  @apply bg-[#151515] px-3 py-0 text-white text-xl font-bold top-[15px] left-6 rounded-md cursor-pointer opacity-0 transition-all duration-500 ease-in-out hover:scale-75;
 }
 .movie-list-item-desc {
-  @apply bg-[#151515] p-[12px] text-sm absolute top-[32%] left-6 w-[250px] rounded-md cursor-pointer opacity-0 transition-all duration-500 hover:scale-75;
+  @apply bg-[#151515] p-[12px] text-white text-sm absolute top-[32%] left-6 w-[250px] rounded-md cursor-pointer opacity-0 transition-all duration-500 hover:scale-75;
 }
 .movie-list-item-button {
   @apply px-2.5 py-2 bg-[#c70913] text-white cursor-pointer rounded-md outline-none border-none text-sm font-medium absolute bottom-[18%] left-6 opacity-0 transition-all duration-500 ease-in-out hover:scale-75;
