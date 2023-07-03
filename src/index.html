@@ -49,8 +49,8 @@
       </div>
     </div>
 
-    <div>
-      <div class="w-[50px] h-full bg-black fixed top-0 items-center flex-col pt-[60px] flex z-10">
+    <div class="flex">
+      <div class="w-[50px] h-full bg-black fixed top-0 items-center flex-col pt-[60px] flex">
         <i class="left-menu-icon fas fa-search"></i>
         <i class="left-menu-icon fas fa-home"></i>
         <i class="left-menu-icon fas fa-users"></i>
@@ -60,134 +60,130 @@
         <i class="left-menu-icon fas fa-shopping-cart"></i>
       </div>
 
-      <div class="bg-[#151515] min-h-[calc(100% + 50px)]">
-        <div class="ml-50px">
-          <div
-            class="featured-content"
-            style="
-              background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url(../src/assets/images/f-1.jpg);
-              background-size: cover;
-            "
+      <div class="bg-[#151515] w-full ml-[50px]">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url(../src/assets/images/f-1.jpg);
+            background-size: cover;
+          "
+        >
+          <h1 class="font-poppins w-[500px] text-center font-bold text-white text-5xl">Unlimited movies, TV shows and more.</h1>
+          <p class="font-poppins text-center text-white text-2xl mt-[25px]">Watch anywhere. Cancel anytime.</p>
+          <button
+            class="bg-[#f40612] text-white text-xl rounded-xl px-[30px] py-[15px] border-none outline-none mt-[25px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-75"
           >
-            <h1 class="font-poppins w-[500px] text-center font-bold text-white text-5xl">Unlimited movies, TV shows and more.</h1>
-            <p class="font-poppins text-center text-white text-2xl mt-[25px]">Watch anywhere. Cancel anytime.</p>
-            <button
-              class="bg-[#f40612] text-white text-xl rounded-xl px-[30px] py-[15px] border-none outline-none mt-[25px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-75"
-            >
-              GET STARTED <i class="fa-solid fa-angle-right btn-icon"></i>
-            </button>
-          </div>
+            GET STARTED <i class="fa-solid fa-angle-right btn-icon"></i>
+          </button>
+        </div>
 
-          <div class="px-2 py-0">
-            <h1 class="font-poppins text-white movie-list-title L mt-[40px] text-2xl">NEW RELEASES</h1>
-            <div class="relative overflow-hidden mb-[20px]">
-              <div class="flex justify-center items-center">
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/01.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/02.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/03.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/04.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
+        <div class="px-2 py-0">
+          <h1 class="font-poppins text-white movie-list-title L mt-[40px] text-2xl">NEW RELEASES</h1>
+          <div class="relative overflow-hidden mb-[20px]">
+            <div class="flex justify-center items-center">
+              <div class="movie-list-item">
+                <img src="../src/assets/images/01.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/02.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/03.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/04.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="px-5 py-0">
-            <h1 class="font-poppins text-white mt-10 text-2xl">TRENDING NOW</h1>
-            <div class="movie-list-wrapper">
-              <div class="flex justify-center items-center h-[250px]">
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/05.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/06.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/07.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/08.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
+        <div class="px-5 py-0">
+          <h1 class="font-poppins text-white mt-10 text-2xl">TRENDING NOW</h1>
+          <div class="movie-list-wrapper">
+            <div class="flex justify-center items-center h-[250px]">
+              <div class="movie-list-item">
+                <img src="../src/assets/images/05.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/06.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/07.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/08.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
               </div>
             </div>
           </div>
+        </div>
 
-          <div
-            class="featured-content"
-            style="
-              background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url(../src/assets/images/f-2.jpg);
-              background-size: cover;
-            "
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url(../src/assets/images/f-2.jpg);
+            background-size: cover;
+          "
+        >
+          <h1 class="font-poppins w-[500px] text-center font-bold text-white text-5xl">Download your shows to watch offline.</h1>
+          <p class="font-poppins text-center text-white text-2xl mt-[25px]">Save your favourites easily to watch.</p>
+          <button
+            class="bg-[#f40612] text-white text-xl rounded-xl px-[30px] py-[15px] border-none outline-none mt-[25px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-75"
           >
-            <h1 class="font-poppins w-[500px] text-center font-bold text-white text-5xl">
-              Download your shows to watch offline.
-            </h1>
-            <p class="font-poppins text-center text-white text-2xl mt-[25px]">Save your favourites easily to watch.</p>
-            <button
-              class="bg-[#f40612] text-white text-xl rounded-xl px-[30px] py-[15px] border-none outline-none mt-[25px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-75"
-            >
-              BINGE WATCH <i class="fa-solid fa-angle-right btn-icon"></i>
-            </button>
-          </div>
+            BINGE WATCH <i class="fa-solid fa-angle-right btn-icon"></i>
+          </button>
+        </div>
 
-          <div class="px-4 py-0">
-            <h1 class="font-poppins text-white text-2xl mb-0">CONTINUE WATCHING</h1>
-            <div class="movie-list-wrapper">
-              <div class="flex items-center justify-center">
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/09.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/10.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/11.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
-                <div class="movie-list-item">
-                  <img src="../src/assets/images/12.jpg" class="movie-list-item-img" />
-                  <span class="movie-list-item-title">Netflix Original</span>
-                  <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
-                  <button class="movie-list-item-button">Watch Now</button>
-                </div>
+        <div class="px-4 py-0">
+          <h1 class="font-poppins text-white text-2xl mb-0">CONTINUE WATCHING</h1>
+          <div class="movie-list-wrapper">
+            <div class="flex items-center justify-center">
+              <div class="movie-list-item">
+                <img src="../src/assets/images/09.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/10.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/11.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="../src/assets/images/12.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <button class="movie-list-item-button">Watch Now</button>
               </div>
             </div>
           </div>
