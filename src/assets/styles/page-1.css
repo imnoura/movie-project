@@ -17,7 +17,7 @@ li {
   font-size: 13px;
 }
 .toggle-ball {
-  @apply w-[18px] h-[18px] bg-black absolute right-[1px] rounded-[50%] cursor-pointer;
+  @apply w-[18px] h-[18px] bg-white dark:bg-black absolute right-[1px] rounded-[50%] cursor-pointer;
 }
 .left-menu-icon {
   @apply text-black dark:text-white text-xl mb-10 cursor-pointer transition-all duration-300 ease-in-out hover:scale-75;
