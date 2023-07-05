@@ -10,6 +10,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
-  color: blue;
+.image-wrapper {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url(../src/assets/images-2/02.jpg);
+  background-size: cover; 
+  @apply h-screen flex items-center justify-center;
 }
