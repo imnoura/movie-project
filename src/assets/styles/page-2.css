@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +11,6 @@
 
 .image-wrapper {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url(../src/assets/images-2/02.jpg);
-  background-size: cover; 
+  background-size: cover;
   @apply h-screen flex items-center justify-center;
 }

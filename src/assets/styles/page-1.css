@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
@@ -44,7 +43,7 @@ li {
 .movie-list-item:hover .movie-list-item-button {
   opacity: 1;
 }
-.movie-list-item-title { 
+.movie-list-item-title {
   @apply bg-white dark:bg-black px-3 py-0 text-black dark:text-white text-xl font-bold top-[15px] left-6 rounded-md cursor-pointer opacity-0 transition-all duration-500 ease-in-out hover:scale-75;
 }
 .movie-list-item-desc {
