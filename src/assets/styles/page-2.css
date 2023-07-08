@@ -17,12 +17,9 @@
 }
 
 .gradient-bg {
-  align-items: center;
+  @apply -mt-5 mx-14 flex items-center py-3 px-6 mb-8 justify-between;
   background-image: linear-gradient(90deg, #333 5%, #181818 95%);
   box-shadow: 8px 5px 16px 0 rgba(0, 0, 0, 0.37);
-  display: flex;
-  margin-bottom: 32px;
-  padding: 10px;
 }
 
 .gradient-line {
