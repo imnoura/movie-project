@@ -16,8 +16,11 @@
   background-size: cover;
 }
 
-.gradient-line {
-  background: linear-gradient(90deg, #777 0, rgba(51, 51, 51, 0.5) 50%, #777);
-  height: 1px;
-  margin-bottom: 25px;
+.gradient-bg {
+  align-items: center;
+  background-image: linear-gradient(90deg, #333 5%, #181818 95%);
+  box-shadow: 8px 5px 16px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  margin-bottom: 32px;
+  padding: 10px;
 }
