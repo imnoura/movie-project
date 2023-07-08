@@ -8,6 +8,14 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+.font-poppins {
+  @apply w-[500px] text-center leading-none text-white text-5xl font-serif
+  width: 500px;
+  text-align: center;
+  line-height: 1;
+  color: #fff;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
 li {
   @apply text-black dark:text-white m-8 cursor-pointer transition-all duration-300 ease-in-out hover:scale-75;
 }
