@@ -74,3 +74,6 @@
 .horizontal-item-container {
   @apply mr-3;
 }
+.movies-like-this {
+  @apply w-[300px] h-[200px] object-cover mr-3 cursor-pointer transition-all duration-300 ease-in-out hover:scale-90;
+}
